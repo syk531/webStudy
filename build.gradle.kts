@@ -15,6 +15,8 @@ dependencies {
     compileOnly("org.projectlombok:lombok:1.18.28")
     annotationProcessor("org.projectlombok:lombok:1.18.28")
     testAnnotationProcessor("org.projectlombok:lombok:1.18.28")
+    implementation("org.springframework.boot:spring-boot-starter-web:2.7.14")
+
 
 }
 
