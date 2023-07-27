@@ -1,5 +1,12 @@
 import java.lang.reflect.Method;
 
+class MyHello {
+    @Count100
+    public void hello() {
+        System.out.println("hello");
+    }
+}
+
 public class MyHelloExam {
     public static void main(String args[]) {
         MyHello myHello = new MyHello();
